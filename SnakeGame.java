@@ -147,7 +147,7 @@ public class SnakeGame extends JPanel implements ActionListener {
 
         if (inGame) {
 
-            
+
             g.drawImage(apple, apple_x, apple_y, this);
 
             for (int z = 0; z < dots; z++) {
@@ -220,7 +220,7 @@ public class SnakeGame extends JPanel implements ActionListener {
                 leftDirection = false;
             }
         }
-
+        
     }
 
     public static void main(String[] args) {
