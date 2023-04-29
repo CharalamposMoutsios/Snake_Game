@@ -216,6 +216,7 @@ public class SnakeGame extends JPanel implements ActionListener {
                 leftDirection = false;
             }
         }
+        
     }
 
     public static void main(String[] args) {
@@ -224,7 +225,7 @@ public class SnakeGame extends JPanel implements ActionListener {
         frame.setContentPane(new SnakeGame());
         frame.pack();
         frame.setLocationRelativeTo(null);
-        
+
         frame.setVisible(true);
     }
 }
