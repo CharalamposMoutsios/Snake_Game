@@ -117,7 +117,7 @@ public class SnakeGame extends JPanel implements ActionListener {
             y[z] = y[(z - 1)];
         }
 
-        
+
 
         if (leftDirection) {
             x[0] -= DOT_SIZE;
@@ -148,6 +148,7 @@ public class SnakeGame extends JPanel implements ActionListener {
 
         private void doDrawing(Graphics g) {
 
+            
         if (inGame) {
 
 
@@ -230,6 +231,7 @@ public class SnakeGame extends JPanel implements ActionListener {
         JFrame frame = new JFrame("Snake");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setContentPane(new SnakeGame());
+        frame.setSize(WIDTH, HEIGHT);
         frame.pack();
 
         frame.setLocationRelativeTo(null);
