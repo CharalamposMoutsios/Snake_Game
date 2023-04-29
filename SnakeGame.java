@@ -133,4 +133,4 @@ public class SnakeGame extends JPanel implements ActionListener {
         doDrawing(g);
     }
 
-    private void do
+    private void doDrawing
