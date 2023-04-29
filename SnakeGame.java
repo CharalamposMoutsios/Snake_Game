@@ -130,6 +130,8 @@ public class SnakeGame extends JPanel implements ActionListener {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
 
+        
+
         doDrawing(g);
     }
 
