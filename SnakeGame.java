@@ -59,7 +59,7 @@ public class SnakeGame extends JPanel implements ActionListener {
         locateApple();
 
 
-        
+
         timer = new Timer(DELAY, this);
         timer.start();
     }
@@ -131,6 +131,7 @@ public class SnakeGame extends JPanel implements ActionListener {
     }
 
     @Override
+    
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
 
