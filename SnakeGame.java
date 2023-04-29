@@ -110,12 +110,14 @@ public class SnakeGame extends JPanel implements ActionListener {
         }
     }
 
-    
+
     private void move() {
         for (int z = dots; z > 0; z--) {
             x[z] = x[(z - 1)];
             y[z] = y[(z - 1)];
         }
+
+        
 
         if (leftDirection) {
             x[0] -= DOT_SIZE;
