@@ -11,6 +11,7 @@ public class SnakeGame extends JPanel implements ActionListener {
     private static final int RAND_POS = 29;
     private static final int DELAY = 140;
 
+    
     private int[] x = new int[ALL_DOTS];
     private int[] y = new int[ALL_DOTS];
 
@@ -216,7 +217,7 @@ public class SnakeGame extends JPanel implements ActionListener {
                 leftDirection = false;
             }
         }
-        
+
     }
 
     public static void main(String[] args) {
