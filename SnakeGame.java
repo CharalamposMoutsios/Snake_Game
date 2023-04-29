@@ -110,6 +110,7 @@ public class SnakeGame extends JPanel implements ActionListener {
         }
     }
 
+    
     private void move() {
         for (int z = dots; z > 0; z--) {
             x[z] = x[(z - 1)];
@@ -231,7 +232,7 @@ public class SnakeGame extends JPanel implements ActionListener {
 
         frame.setLocationRelativeTo(null);
 
-        
+
         frame.setVisible(true);
     }
 }
