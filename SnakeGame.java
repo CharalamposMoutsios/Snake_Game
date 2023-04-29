@@ -14,6 +14,7 @@ public class SnakeGame extends JPanel implements ActionListener {
     private int[] x = new int[ALL_DOTS];
     private int[] y = new int[ALL_DOTS];
 
+    
     private int dots;
     private int apple_x;
     private int apple_y;
