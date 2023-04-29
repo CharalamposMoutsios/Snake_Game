@@ -160,6 +160,7 @@ public class SnakeGame extends JPanel implements ActionListener {
                 } else {
                     g.drawImage(ball, x[z], y[z], this);
                 }
+                
             }
 
             Toolkit.getDefaultToolkit().sync();
