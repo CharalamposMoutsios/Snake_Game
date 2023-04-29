@@ -158,6 +158,7 @@ public class SnakeGame extends JPanel implements ActionListener {
 
             g.drawImage(apple, apple_x, apple_y, this);
 
+            
             for (int z = 0; z < dots; z++) {
                 if (z == 0) {
                     g.drawImage(head, x[z], y[z], this);
