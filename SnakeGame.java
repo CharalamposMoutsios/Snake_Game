@@ -147,11 +147,9 @@ public class SnakeGame extends JPanel implements ActionListener {
     }
 
         private void doDrawing(Graphics g) {
-        System.out.println("in doDrawing");
-        System.out.println("apple_x: " + apple_x);
-        System.out.println("apple_y: " + apple_y);
-        System.out.println("x[0]: " + x[0]);
-        System.out.println("y[0]: " + y[0]);
+            System.out.println("Drawing apple at (" + apple_x + ", " + apple_y + ")");
+            System.out.println("Drawing head at (" + x[0] + ", " + y[0] + ")");
+            
 
 
             
