@@ -58,6 +58,8 @@ public class SnakeGame extends JPanel implements ActionListener {
 
         locateApple();
 
+
+        
         timer = new Timer(DELAY, this);
         timer.start();
     }
@@ -73,7 +75,7 @@ public class SnakeGame extends JPanel implements ActionListener {
     private void checkApple() {
         if ((x[0] == apple_x) && (y[0] == apple_y)) {
             dots++;
-            
+
             locateApple();
         }
     }
