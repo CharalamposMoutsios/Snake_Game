@@ -15,7 +15,7 @@ public class SnakeGame extends JPanel implements ActionListener {
     private int[] x = new int[ALL_DOTS];
     private int[] y = new int[ALL_DOTS];
 
-    
+
 
 
     private int dots;
@@ -147,6 +147,7 @@ public class SnakeGame extends JPanel implements ActionListener {
 
         if (inGame) {
 
+            
             g.drawImage(apple, apple_x, apple_y, this);
 
             for (int z = 0; z < dots; z++) {
