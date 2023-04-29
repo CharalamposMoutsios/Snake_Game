@@ -131,7 +131,7 @@ public class SnakeGame extends JPanel implements ActionListener {
     }
 
     @Override
-    
+
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
 
@@ -224,6 +224,7 @@ public class SnakeGame extends JPanel implements ActionListener {
         frame.setContentPane(new SnakeGame());
         frame.pack();
         frame.setLocationRelativeTo(null);
+        
         frame.setVisible(true);
     }
 }
