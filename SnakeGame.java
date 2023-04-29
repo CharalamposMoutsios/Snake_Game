@@ -103,6 +103,7 @@ public class SnakeGame implements ActionListener, KeyListener {
     }
     
     public void move() {
-        for (int i = bodyParts; i > 0; i--) {
-            x[i] = x[i]
+        for (int i = bodyParts; i > 0; i--) 
+        {x[i] = x[i - 1]};
+           
                     
