@@ -11,12 +11,8 @@ public class SnakeGame extends JPanel implements ActionListener {
     private static final int RAND_POS = 30;
     private static final int DELAY = 140;
 
-
     private int[] x = new int[ALL_DOTS];
     private int[] y = new int[ALL_DOTS];
-
-
-
 
     private int dots;
     private int apple_x;
