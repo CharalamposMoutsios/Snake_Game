@@ -8,7 +8,7 @@ public class SnakeGame extends JPanel implements ActionListener {
     private static final int HEIGHT = 400;
     private static final int DOT_SIZE = 10;
     private static final int ALL_DOTS = 900;
-    private static final int RAND_POS = 29;
+    private static final int RAND_POS = 30;
     private static final int DELAY = 140;
 
 
@@ -52,7 +52,7 @@ public class SnakeGame extends JPanel implements ActionListener {
     }
 
     private void initGame() {
-        dots = 3;
+        dots = 4;
 
         for (int z = 0; z < dots; z++) {
             x[z] = 50 - z * 10;
